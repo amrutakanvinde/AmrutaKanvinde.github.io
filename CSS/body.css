@@ -1,4 +1,8 @@
 body {
-    background: var(--blue);
+    background: var(--teal);
     font-family: var(--font-one);
+}
+
+#gridcards {
+    align-self: left;
 }
