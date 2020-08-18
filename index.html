@@ -4,10 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amruta Kanvinde Portfolio</title>
+    <!-- bootstarp css link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Google Fonts Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <!-- My Css link -->
     <link type="text/css" rel="stylesheet" href="./CSS/main.css">
 </head>
 <body>
     
+    <!-- Navbar section -->
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav" id="nav-content">
+            <li class="nav-item active">
+              <a class="nav-link li-tag" href="#contact">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link li-tag" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link li-tag" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled li-tag" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Jumbotron -->
+      <section id="landing-section">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Fluid jumbotron</h1>
+              <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            </div>
+          </div>
+      </section>
+
+      <!-- Bootstrap layout explanation -->
+
+      <section>
+          <div class="container">
+              <div class="row"> <!-- You can have upto 12 columns in one row -->
+                <div class="col">This is a column</div>
+                <div class="col">This is a column</div>
+                <div class="col">This is a column</div>
+                <div class="col">This is a column</div>
+              </div>
+              <div class="row">
+                <div class="col">This is another column</div>
+              </div>
+          </div>
+      </section>
+
+      <section id="contact">
+          <div class="container">
+            <form
+            action="https://formspree.io/mdowjgnv"
+            method="POST"
+            >
+            <label>
+            Your email:
+            <input type="text" name="_replyto">
+            </label>
+            <label>
+            Your message:
+            <textarea name="message"></textarea>
+            </label>
+
+            <!-- your other form fields go here -->
+
+            <button type="submit">Send</button>
+            </form>
+          </div>
+      </section>
+    <!-- Bootstrap script tags -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>  
+    <!-- My javascript link -->
     <script src="main.js"></script>
 </body>
 </html>
