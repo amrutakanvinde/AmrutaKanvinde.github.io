@@ -7,3 +7,16 @@
     border-color: rgba(0,0,0,.1);
 }
 
+.side-nav {
+    background-color: var(--primary);
+    color:white;
+    text-align: center;
+    height: 100vh;
+}
+
+.img-thumbnail {
+    max-width: 80%;
+    border-radius: 100%;
+    margin-top: 10px;
+    background-color: transparent;
+}

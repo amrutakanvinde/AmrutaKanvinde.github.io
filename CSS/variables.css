@@ -10,8 +10,12 @@
     --orange: #FF8A4E;
     --black:#010E0F;
     --purple:#261758;
-
-    --font-one: 'Gloria Hallelujah', cursive;
+    --primary: #5BC8B3;
+    --card: #263338;
+    
+    --font-one: 'Baloo Tamma 2', cursive;
     --font-two: 'Shadows Into Light', cursive;
+    --font-main:'Architects Daughter', cursive;
+    --font-projects: 'Lato', sans-serif;
 
 }

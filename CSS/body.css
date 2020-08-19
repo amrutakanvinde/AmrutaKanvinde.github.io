@@ -1,8 +1,9 @@
 body {
-    background: var(--teal);
+    background: var(--white);
     font-family: var(--font-one);
 }
 
-#gridcards {
-    align-self: left;
+section {
+    border-bottom: 3px solid rgb(243, 210, 210);
+    margin-bottom: 100px;
 }

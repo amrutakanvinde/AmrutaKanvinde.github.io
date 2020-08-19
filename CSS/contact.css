@@ -1,0 +1,20 @@
+.btn {
+    width: 125px;
+}
+
+.input-text {
+    height: 50px;
+}
+
+#input-message {
+    height: 150px;
+}
+
+.btn {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-col{
+    text-align: right;
+}

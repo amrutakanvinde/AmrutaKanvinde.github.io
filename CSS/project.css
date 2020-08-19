@@ -1,0 +1,38 @@
+
+
+.div-card-image {
+    height: 200px;
+    text-align: center;
+}
+
+.card img{
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+}
+
+.card-title {
+    text-align: center;
+    color: var(--card);
+}
+
+.card-title:hover {
+    color: var(--primary);
+    text-decoration: none;
+    /* font-family: var(--font-projects); */
+}
+
+
+.padding-try {
+    padding: 10px 20px 25px 10px;
+}
+
+.heading {
+    font-family: var(--font-projects);
+    font-size: 50px;
+    /* font-weight: bolder; */
+    color: var(--primary);
+    text-align: right;
+    padding-bottom: 10px;
+
+}

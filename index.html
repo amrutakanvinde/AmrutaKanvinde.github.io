@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- Google Fonts Link -->
     <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Lato:wght@700&display=swap" rel="stylesheet">
         <!-- My Css link -->
     <link type="text/css" rel="stylesheet" href="./CSS/main.css">
 </head>
@@ -15,109 +17,176 @@
     
     <!-- Navbar section -->
 
-    <nav class="navbar navbar-expand-lg bg-light navbar-fixed-top">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav" id="nav-content">
-            <li class="nav-item active">
-              <a class="nav-link li-tag" href="#contact">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link li-tag" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link li-tag" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled li-tag" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
+
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-3 side-nav sticky-top padding-try">
+          <img src="./assets/portfolio-pic.jpeg" alt="Amruta" class="img-thumbnail">
+          <h2 id = 'my-name'>Amruta Kanvinde</h2>
+          <br>
+          <ul class="list-group list-group-flush">
+            <a class="list-group-item list-group-item-action" href="#projects-section" >Projects</a>
+            <a class="list-group-item list-group-item-action" href="#skills-section" >Skills</a>
+            <a class="list-group-item list-group-item-action" href="">About Me</a>
+            <a class="list-group-item list-group-item-action" href="#contact-section">Contact</a>
           </ul>
         </div>
-      </nav>
 
-      <!-- Jumbotron -->
-      <section id="landing-section">
-        <div class="wrapper">
-           <div class="jumbotron jumbotron-fluid vertical-left">
+
+        <div class="col-9 padding-try">
+          <!-- Cards are here -->
+          
+          <section id="projects-section">
+            <h1 class="heading" >Projects</h1>
+            <div class="row row-cols-1 row-cols-md-3">
+              <div class="col mb-4">
+                <div class="card">
+                  <div class="div-card-image">
+                    <img src="./assets/Csspuppy.png" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a  class="card-title" href="https://codepen.io/kanvindeamruta/pen/WNrBwJY" target="blank">PUPPY DOG CREATURE</a>
+                     </h5>
+                    <!-- <p class="card-text"></p> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card">
+                  <div class="div-card-image">
+                    <img src="./assets/ssh.png" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="https://amrutakanvinde.github.io/staticLayout/" class="card-title" target="blank">HULU WEBSITE RECREATION</a>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card h-100">
+                  <div class="div-card-image">
+                    <img src="./assets/sssg.png" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a class="card-title" href=" https://amrutakanvinde.github.io/API_Assignment/" target="blank"> STUDIO GHIBLI API</a>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card h-100">
+                  <div class="div-card-image">
+                    <img src="./assets/superhero-api_home.png" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a class="card-title" href="https://apichallenge2.web.app/"> SUPERHERO API</a>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card h-100">
+                  <div class="div-card-image">
+                    <img src="./assets/comingsoon.jpg" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">BLUE BADGE PROJECT</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card h-100">
+                  <div class="div-card-image">
+                    <img src="./assets/comingsoon.jpg" class="card-img-top" alt="...">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">RED BADGE PROJECT</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br><br><br><br><br>
+          </section>
+
+ 
+          <section id="skills-section">
+            <h1 class="heading">Skills</h1>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"> HTML</div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">CSS</div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Javascript</div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Bootstrap</div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">SQL Server</div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">C#</div>
+            </div>
+            <br><br><br><br><br>
+            
+          </section>
+
+          <section id="about-section">
+
+            <h4 class="heading">But wait, that's not it!!!</h4>
+            <p>I am much more than all of my coding skills</p>
+
+            
+          </section>
+          <br>
+
+          <br><br><br><br><br>
+          <!-- Contact section goes here -->
+          <section id="contact-section">	      
             <div class="container">
-              <h1 class="display-4">Fluid jumbotron</h1>
-              <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+              <h3 class="heading">Let's Connect!!</h3>
+              <form action="https://formspree.io/mdowjgnv"	method="POST"> 
+                <div class="form-row form-group">
+                  <div class="col">
+                    <input type="text" class="form-control input-text" placeholder="Name">
+                  </div>
+                  <div class="col">
+                    <input type="email" class="form-control input-text" placeholder="Email">
+                  </div>
+                </div>
+                <div class="form-group form-row">
+                  <div class="col">
+                    <input type="text" class="form-control input-text" id="" placeholder="Subject" required>
+                  </div>
+                </div>
+                <div class="form-group form-row">
+                  <div class="col">
+                    <textarea class="form-control" id="input-message" placeholder="Message" required></textarea>
+                  </div>
+                </div>
+                <div class="form-group form-row">
+                  <div class="col btn-col">
+                    <button class="btn btn-primary" type="submit">Send</button>
+                  </div>
+                </div>
+              </form>
             </div>
-          </div>
-        </div>
-       
-        
-      </section>
+          </section>
 
-      
-
-      <div id="gridCards" class="container">
-        <div class="row card-deck">
-          <div class="col-sm">
-            <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="./assets/dog-emoji.png" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-      </div>
-          </div>
-          <div class="col-sm">
-            <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-      </div>
-          </div>
-          <div class="col-sm">
-            <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-      </div>
-          </div>
         </div>
       </div>
+    </div>
 
-      <!-- Bootstrap layout explanation -->
 
-      <!-- <section>
-          <div class="container">
-              <div class="row"> 
-                <div class="col">This is a column</div>
-                <div class="col">This is a column</div>
-                <div class="col">This is a column</div>
-                <div class="col">This is a column</div>
-              </div>
-              <div class="row">
-                <div class="col">This is another column</div>
-              </div>
-          </div>
-      </section> -->
 
-      <section id="contact">
-          <div class="container">
-            <form
-            action="https://formspree.io/mdowjgnv"
-            method="POST"
-            >
-            <label>
-            Your email:
-            <input type="text" name="_replyto">
-            </label>
-            <label>
-            Your message:
-            <textarea name="message"></textarea>
-            </label>
 
-            <button type="submit">Send</button>
-            </form>
-          </div>
-      </section>
+
     <!-- Bootstrap script tags -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
