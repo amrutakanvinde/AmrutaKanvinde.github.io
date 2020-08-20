@@ -1,0 +1,29 @@
+.progress-bar {
+    /* height: 100px; */
+    background-color: var(--dark-primary);
+    color:white;
+    font-size: 16px;
+    text-align: left;
+    padding: 10px;
+}
+
+.progress {
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.bg-beginner {
+    background-color: #39A590;
+}
+
+.bg-intermediate{
+    background-color: #09826B;
+}
+
+.bg-master{
+    background-color: #006753;
+}
+
+.bg-professional {
+    background-color: #00342A;
+}

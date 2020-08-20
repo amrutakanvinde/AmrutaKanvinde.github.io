@@ -1,9 +1,52 @@
 body {
     background: var(--white);
     font-family: var(--font-one);
+    text-align: right;
+}
+
+.heading {
+    font-family: var(--font-projects);
+    font-size: 50px;
+    /* font-weight: bolder; */
+    color: var(--primary);
+    text-align: right;
+    padding-bottom: 10px;
+
+}
+
+a {
+    color: white;
 }
 
 section {
-    border-bottom: 3px solid rgb(243, 210, 210);
-    margin-bottom: 100px;
+    border: 1px solid #d8d8d8;
+    box-shadow: 10px 10px #e8e8e8;
+    padding: 20px;
+    margin-bottom: 90px;
+    min-height: 98vh;
+   
+    /* margin: auto;
+    width: 100%; */
+    /* display: flex;
+    justify-content: center; */
+}
+
+#projects-section{
+    padding-top: 8vh;
+    padding-bottom: 4vh;
+}
+
+#skills-section {
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+}
+
+#about-section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+#contact-section{
+    padding-top: 20vh;
+    padding-bottom: 10vh;
 }

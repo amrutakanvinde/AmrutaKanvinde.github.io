@@ -1,0 +1,11 @@
+.footer {
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+#lnk-footer {
+    color: var(--primary);
+    text-decoration: none;
+}
+

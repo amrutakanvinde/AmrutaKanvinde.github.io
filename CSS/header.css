@@ -27,6 +27,7 @@
 #my-name {
     font-family: var(--font-main);
     font-size: 40px;
+    padding-top: 40px;
     /* color: var(--purple); */
 
 }
@@ -42,4 +43,9 @@
     color: var(--primary);
     background-color: white;
     cursor: pointer;
+}
+
+.nav-link:hover {
+    color: var(--dark-primary);
+    /* background-color: white; */
 }

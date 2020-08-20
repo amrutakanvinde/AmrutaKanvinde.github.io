@@ -1,13 +1,26 @@
-.progress-bar {
-    /* height: 100px; */
-    background-color: var(--card);
-    color:var(--primary);
-    font-size: 16px;
-    text-align: left;
-    padding: 10px;
+
+
+.carousel-item {
+    max-height: 500px;
 }
 
-.progress {
-    height: 25px;
-    margin-bottom: 10px;
+.text-desc {
+    font-family: var(--font-projects);
+    /* font-size: 50px; */
+    /* font-weight: bolder; */
+    color: #006753;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.slide-background h5 {
+    font-size: 100px;
+}
+
+.slide-background p {
+    font-size: 20px;
+}
+
+.slide-background img {
+    background: linear-gradient(to bottom, transparent);
 }
